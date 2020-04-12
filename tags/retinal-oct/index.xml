@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>retinal-oct | Suhail Najeeb</title>
+    <link>/tags/retinal-oct/</link>
+      <atom:link href="/tags/retinal-oct/index.xml" rel="self" type="application/rss+xml" />
+    <description>retinal-oct</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 20 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>retinal-oct</title>
+      <link>/tags/retinal-oct/</link>
+    </image>
+    
+    <item>
+      <title>Classification of Diseases from Retinal OCT Scan</title>
+      <link>/project/retinal-oct-classify/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/project/retinal-oct-classify/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer-vision | Suhail Najeeb</title>
+    <link>/categories/computer-vision/</link>
+      <atom:link href="/categories/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>computer-vision</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>computer-vision</title>
+      <link>/categories/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>Cancer Classification from Single-Cell RNA Sequencing Data</title>
+      <link>/project/tcga-cancer-predict/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/project/tcga-cancer-predict/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classification of Diseases from Retinal OCT Scan</title>
+      <link>/project/retinal-oct-classify/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/project/retinal-oct-classify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
+      <link>/project/lung-tumor-seg/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/project/lung-tumor-seg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traffic Sign Detection under Challenging Conditions</title>
+      <link>/project/traffic-sign-detect/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/project/traffic-sign-detect/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

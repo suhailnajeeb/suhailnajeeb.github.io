@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ct-scan | Suhail Najeeb</title>
+    <link>/tags/ct-scan/</link>
+      <atom:link href="/tags/ct-scan/index.xml" rel="self" type="application/rss+xml" />
+    <description>ct-scan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>ct-scan</title>
+      <link>/tags/ct-scan/</link>
+    </image>
+    
+    <item>
+      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
+      <link>/project/lung-tumor-seg/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/project/lung-tumor-seg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

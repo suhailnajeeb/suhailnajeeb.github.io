@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shahruk Hossain | Suhail Najeeb</title>
+    <link>/authors/shahruk-hossain/</link>
+      <atom:link href="/authors/shahruk-hossain/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shahruk Hossain</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Shahruk Hossain</title>
+      <link>/authors/shahruk-hossain/</link>
+    </image>
+    
+    <item>
+      <title>Cancer Classification from Single-Cell RNA Sequencing Data</title>
+      <link>/project/tcga-cancer-predict/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/project/tcga-cancer-predict/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
+      <link>/project/lung-tumor-seg/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/project/lung-tumor-seg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Pipeline for Lung Tumor Detection and Segmentation from CT Scans Using Dilated Convolutional Neural Networks</title>
+      <link>/publication/lungseg-icassp2019/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/lungseg-icassp2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traffic Sign Detection under Challenging Conditions</title>
+      <link>/project/traffic-sign-detect/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/project/traffic-sign-detect/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Suhail Najeeb</title>
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 23 Oct 2019 15:00:00 +0600</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talk/</link>
+    </image>
+    
+    <item>
+      <title>Applications of AI in Engineering: The Data Driven Future</title>
+      <link>/talk/ai-ewu/</link>
+      <pubDate>Wed, 23 Oct 2019 15:00:00 +0600</pubDate>
+      <guid>/talk/ai-ewu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Road to IEEE SP Cup &amp; VIP Cup</title>
+      <link>/talk/spcup/</link>
+      <pubDate>Tue, 27 Aug 2019 17:00:00 +0600</pubDate>
+      <guid>/talk/spcup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Course on Python &amp; Data Science</title>
+      <link>/talk/sbsc-workshop-2/</link>
+      <pubDate>Wed, 15 Nov 2017 17:00:00 +0600</pubDate>
+      <guid>/talk/sbsc-workshop-2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
