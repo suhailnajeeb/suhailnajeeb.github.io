@@ -5,7 +5,7 @@
     <link>/authors/admin/</link>
       <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Suhail Najeeb</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 13 Aug 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Suhail Najeeb</title>
@@ -15,7 +15,7 @@
     <item>
       <title>AI - Where Do We Stand Today?</title>
       <link>/post/ai-2016/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 13 Aug 2016 00:00:00 +0000</pubDate>
       <guid>/post/ai-2016/</guid>
       <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;AI or Artificial Intelligence had been a buzz word of the twenty first century in its early days. However, somehow the world seemed to find more interesting stuff to buzz about. The likes of smart phones, tablets, thinner laptops and cool hardware, gaming, social networking platforms, virtual reality.. the list goes on. All of these had us busy and obsessed while the catch of doing something genuinely cool with AI seemed to be a far cry or not worth much, at least for the time being. However, as of late, it seems like the gorgeous butterfly, done with its 
