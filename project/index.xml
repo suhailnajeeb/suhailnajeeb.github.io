@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Suhail Najeeb</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://suhailnajeeb.github.io/project/</link>
+      <atom:link href="https://suhailnajeeb.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>https://suhailnajeeb.github.io/project/</link>
     </image>
     
     <item>
       <title>Cancer Classification from Single-Cell RNA Sequencing Data</title>
-      <link>/project/tcga-cancer-predict/</link>
+      <link>https://suhailnajeeb.github.io/project/tcga-cancer-predict/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/project/tcga-cancer-predict/</guid>
+      <guid>https://suhailnajeeb.github.io/project/tcga-cancer-predict/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Classification of Diseases from Retinal OCT Scan</title>
-      <link>/project/retinal-oct-classify/</link>
+      <link>https://suhailnajeeb.github.io/project/retinal-oct-classify/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/project/retinal-oct-classify/</guid>
+      <guid>https://suhailnajeeb.github.io/project/retinal-oct-classify/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
-      <link>/project/lung-tumor-seg/</link>
+      <link>https://suhailnajeeb.github.io/project/lung-tumor-seg/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/project/lung-tumor-seg/</guid>
+      <guid>https://suhailnajeeb.github.io/project/lung-tumor-seg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Traffic Sign Detection under Challenging Conditions</title>
-      <link>/project/traffic-sign-detect/</link>
+      <link>https://suhailnajeeb.github.io/project/traffic-sign-detect/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/project/traffic-sign-detect/</guid>
+      <guid>https://suhailnajeeb.github.io/project/traffic-sign-detect/</guid>
       <description></description>
     </item>
     

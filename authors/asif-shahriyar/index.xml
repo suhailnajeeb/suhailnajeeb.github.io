@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Asif Shahriyar | Suhail Najeeb</title>
-    <link>/authors/asif-shahriyar/</link>
-      <atom:link href="/authors/asif-shahriyar/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://suhailnajeeb.github.io/authors/asif-shahriyar/</link>
+      <atom:link href="https://suhailnajeeb.github.io/authors/asif-shahriyar/index.xml" rel="self" type="application/rss+xml" />
     <description>Asif Shahriyar</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Asif Shahriyar</title>
-      <link>/authors/asif-shahriyar/</link>
+      <link>https://suhailnajeeb.github.io/authors/asif-shahriyar/</link>
     </image>
     
     <item>
       <title>A Pipeline for Lung Tumor Detection and Segmentation from CT Scans Using Dilated Convolutional Neural Networks</title>
-      <link>/publication/lungseg-icassp2019/</link>
+      <link>https://suhailnajeeb.github.io/publication/lungseg-icassp2019/</link>
       <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/lungseg-icassp2019/</guid>
+      <guid>https://suhailnajeeb.github.io/publication/lungseg-icassp2019/</guid>
       <description></description>
     </item>
     

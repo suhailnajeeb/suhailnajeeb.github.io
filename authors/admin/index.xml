@@ -2,25 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Suhail Najeeb</title>
-    <link>/authors/admin/</link>
-      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://suhailnajeeb.github.io/authors/admin/</link>
+      <atom:link href="https://suhailnajeeb.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Suhail Najeeb</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 13 Aug 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Suhail Najeeb</title>
-      <link>/authors/admin/</link>
+      <link>https://suhailnajeeb.github.io/authors/admin/</link>
     </image>
     
     <item>
       <title>AI - Where Do We Stand Today?</title>
-      <link>/post/ai-2016/</link>
+      <link>https://suhailnajeeb.github.io/post/ai-2016/</link>
       <pubDate>Sat, 13 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>/post/ai-2016/</guid>
-      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+      <guid>https://suhailnajeeb.github.io/post/ai-2016/</guid>
+      <description>&lt;div style = &#34;text-align: justify&#34;&gt;
+&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;AI or Artificial Intelligence had been a buzz word of the twenty first century in its early days. However, somehow the world seemed to find more interesting stuff to buzz about. The likes of smart phones, tablets, thinner laptops and cool hardware, gaming, social networking platforms, virtual reality.. the list goes on. All of these had us busy and obsessed while the catch of doing something genuinely cool with AI seemed to be a far cry or not worth much, at least for the time being. However, as of late, it seems like the gorgeous butterfly, done with its 
 &lt;a href=&#34;https://www.zmescience.com/ecology/animals-ecology/how-caterpillar-turn-butterfly-0534534/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Metamorphosis&lt;/a&gt;, is coming out of its cocoon.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/ai-2016/metamorphosis.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://suhailnajeeb.github.io/img/ai-2016/metamorphosis.jpg&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ai&#34;&gt;AI&lt;/h2&gt;
 &lt;p&gt;So, what makes AI so spectacular and noteworthy? Before we can understand the significance of AI or Artificial Intelligence, we must be able to distinguish it from the traditional ‘Intelligence’ that has been part of computers since the beginning of their time. If we look at how computers have worked all these days, they have been solely computational machines, having little human-like intelligence at all. Most of their applications have revolved around codes written to perform different pre-defined tasks which one way or another solely depend upon mathemetical computation. However, Artificial Intelligences don’t necessarily have a fixed algorithm to go about and solve an underlying task. Instead AI takes a human like approach to any provided problem. It analyzes existing sets of data, thereby it can train itself and ‘learn’ from experience, just like humans do. This might not sound like a much for a starter, but as we will see, this ability to improve from experience opens doors to thousands of possibilities.&lt;/p&gt;
 &lt;h2 id=&#34;evolution-of-ai&#34;&gt;Evolution of AI&lt;/h2&gt;
@@ -80,7 +81,7 @@
 &lt;img src = &#34;/img/ai-2016/alphago.gif&#34;&gt;
 &lt;h2 id=&#34;wrap-up&#34;&gt;Wrap Up&lt;/h2&gt;
 &lt;p&gt;Artificial intelligence is by far the most significant feat of humans in the era of information and technology. However, the coin has both sides to look at. It is true that artificial intelligence opens up the world to new possibilities. AI can offer a helping hand to excel and improve in every possible way humanity can or cannot imagine. However, the idea of a general purpose intelligence that is capable of improving itself also poses a threat to humanity as well. Any self-improving system runs the risk of achieving the state of accelerated returns – as predicted by researchers which might lead to a super-intelligence greater than us human beings ourselves. However, we are far from the point to judge if this might be a probability or not, but in the mean time I would agree with Dagago Altraide to say that I am ‘Cautiously Optimistic’ about AI. Whether or not AI might pose a threat to humanity is beyond the scope of this article, maybe a story of another day.&lt;/p&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
   </channel>

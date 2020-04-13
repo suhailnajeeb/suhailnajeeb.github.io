@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>computer-vision | Suhail Najeeb</title>
-    <link>/tags/computer-vision/</link>
-      <atom:link href="/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://suhailnajeeb.github.io/tags/computer-vision/</link>
+      <atom:link href="https://suhailnajeeb.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     <description>computer-vision</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>computer-vision</title>
-      <link>/tags/computer-vision/</link>
+      <link>https://suhailnajeeb.github.io/tags/computer-vision/</link>
     </image>
     
     <item>
       <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
-      <link>/project/lung-tumor-seg/</link>
+      <link>https://suhailnajeeb.github.io/project/lung-tumor-seg/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/project/lung-tumor-seg/</guid>
+      <guid>https://suhailnajeeb.github.io/project/lung-tumor-seg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Traffic Sign Detection under Challenging Conditions</title>
-      <link>/project/traffic-sign-detect/</link>
+      <link>https://suhailnajeeb.github.io/project/traffic-sign-detect/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/project/traffic-sign-detect/</guid>
+      <guid>https://suhailnajeeb.github.io/project/traffic-sign-detect/</guid>
       <description></description>
     </item>
     

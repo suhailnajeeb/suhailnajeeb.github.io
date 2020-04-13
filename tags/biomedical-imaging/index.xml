@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>biomedical-imaging | Suhail Najeeb</title>
-    <link>/tags/biomedical-imaging/</link>
-      <atom:link href="/tags/biomedical-imaging/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://suhailnajeeb.github.io/tags/biomedical-imaging/</link>
+      <atom:link href="https://suhailnajeeb.github.io/tags/biomedical-imaging/index.xml" rel="self" type="application/rss+xml" />
     <description>biomedical-imaging</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 20 Dec 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>biomedical-imaging</title>
-      <link>/tags/biomedical-imaging/</link>
+      <link>https://suhailnajeeb.github.io/tags/biomedical-imaging/</link>
     </image>
     
     <item>
       <title>Classification of Diseases from Retinal OCT Scan</title>
-      <link>/project/retinal-oct-classify/</link>
+      <link>https://suhailnajeeb.github.io/project/retinal-oct-classify/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/project/retinal-oct-classify/</guid>
+      <guid>https://suhailnajeeb.github.io/project/retinal-oct-classify/</guid>
       <description></description>
     </item>
     

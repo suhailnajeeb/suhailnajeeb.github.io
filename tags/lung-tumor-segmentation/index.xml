@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>lung-tumor-segmentation | Suhail Najeeb</title>
-    <link>/tags/lung-tumor-segmentation/</link>
-      <atom:link href="/tags/lung-tumor-segmentation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://suhailnajeeb.github.io/tags/lung-tumor-segmentation/</link>
+      <atom:link href="https://suhailnajeeb.github.io/tags/lung-tumor-segmentation/index.xml" rel="self" type="application/rss+xml" />
     <description>lung-tumor-segmentation</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>lung-tumor-segmentation</title>
-      <link>/tags/lung-tumor-segmentation/</link>
+      <link>https://suhailnajeeb.github.io/tags/lung-tumor-segmentation/</link>
     </image>
     
     <item>
       <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
-      <link>/project/lung-tumor-seg/</link>
+      <link>https://suhailnajeeb.github.io/project/lung-tumor-seg/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/project/lung-tumor-seg/</guid>
+      <guid>https://suhailnajeeb.github.io/project/lung-tumor-seg/</guid>
       <description></description>
     </item>
     
