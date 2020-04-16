@@ -3,8 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://suhailnajeeb.github.io/authors/admin/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://suhailnajeeb.github.io/authors/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/post/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/post/sql-basics/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -54,11 +74,6 @@
   
   <url>
     <loc>https://suhailnajeeb.github.io/authors/suhail-najeeb/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -193,17 +208,7 @@
   </url>
   
   <url>
-    <loc>https://suhailnajeeb.github.io/authors/admin/</loc>
-    <lastmod>2016-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://suhailnajeeb.github.io/post/ai-2016/</loc>
-    <lastmod>2016-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/post/</loc>
     <lastmod>2016-08-13T00:00:00+00:00</lastmod>
   </url>
   
