@@ -5,7 +5,7 @@
     <link>https://suhailnajeeb.github.io/</link>
       <atom:link href="https://suhailnajeeb.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Suhail Najeeb</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Suhail Najeeb</title>
@@ -13,11 +13,123 @@
     </image>
     
     <item>
+      <title>SQL Fundamentals (Part 2/3)</title>
+      <link>https://suhailnajeeb.github.io/post/sql-fundamentals-part-2/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/post/sql-fundamentals-part-2/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://suhailnajeeb.github.io/img/sql/database.jpg&#34;&gt;
+    &lt;a href = &#34;https://www.pexels.com/photo/bandwidth-close-up-computer-connection-1148820/&#34; target = &#34;_blank&#34;&gt;
+    &lt;figcaption&gt;Photo by Panumas Nikhomkhai from Pexels&lt;/figcaption&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;p&gt;This is the Part 2 of my SQL Fundamentals series, continuing from 
+&lt;a href=&#34;https://suhailnajeeb.github.io/post/sql-fundamentals-part-1&#34;&gt;Part 1&lt;/a&gt; where I discussed Creating Tables, Querying with SELECT and WHERE, introduced some useful functions like COUNT, DISTINCT, LIMIT and some DML statements - INSERT, UPDATE, DELETE Etc. Part 2 of this series covers the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Matching String Patterns&lt;/li&gt;
+&lt;li&gt;Rangeds&lt;/li&gt;
+&lt;li&gt;Sets&lt;/li&gt;
+&lt;li&gt;Sorting&lt;/li&gt;
+&lt;li&gt;Eliminating Duplicates&lt;/li&gt;
+&lt;li&gt;Grouping, Counting&lt;/li&gt;
+&lt;li&gt;Filtering Grouped results.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following statemetns aren&amp;rsquo;t really descriptive if that is something you are looking for. Its mostly a collection of the basic syntaxes with some examples. This is the 
+&lt;a href=&#34;https://github.com/suhailnajeeb/learning-sql&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; to the corresponding github repository. You will find some relevant example sql queries in the 
+&lt;a href=&#34;https://github.com/suhailnajeeb/learning-sql/tree/master/problems&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Problems&lt;/a&gt; folder of the repository.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;string-patterns&#34;&gt;String Patterns&lt;/h1&gt;
+&lt;h2 id=&#34;matching-string&#34;&gt;Matching string:&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select book_id, title from book
+    where book_id = &#39;B1&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;looking-for-string-patterns&#34;&gt;Looking for String Patterns:&lt;/h2&gt;
+&lt;p&gt;Display all authors with firstname starting with R&lt;br&gt;
+&lt;strong&gt;Predicate:&lt;/strong&gt; Like&lt;br&gt;
+&lt;strong&gt;Wildcard:&lt;/strong&gt; %&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select firstname from author
+    where firstname like &#39;R%&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;ranges&#34;&gt;Ranges:&lt;/h1&gt;
+&lt;h2 id=&#34;without-range&#34;&gt;Without Range:&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select title, pages from book
+    where pages &amp;gt;= 290 and pages &amp;lt;= 300;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;retrieving-values-using-range&#34;&gt;Retrieving values using Range:&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select title, pages from book
+    where pages between 290 and 300;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;sets&#34;&gt;Sets&lt;/h1&gt;
+&lt;h2 id=&#34;without-set-of-values&#34;&gt;Without set of values:&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select firstname, lastname, country from author
+    where country = &#39;AU&#39; or country = &#39;BR&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;retrieving-rows-using-a-set-of-values&#34;&gt;Retrieving rows using a set of values:&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select firstname, lastname, country from author
+    where country in (&#39;AU&#39;, &#39;BR&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;sorting-result-sets&#34;&gt;Sorting Result Sets:&lt;/h1&gt;
+&lt;h2 id=&#34;order-by-title-ascending-order&#34;&gt;Order by title (Ascending Order):&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select title from book
+    order by title;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;order-by-title-descending-order&#34;&gt;Order by title (Descending Order):&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select title from book
+    order by title desc;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;order-by-specifying-the-column-number&#34;&gt;Order by specifying the column number:&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select title, pages from book
+    order by 2;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;distinct-clause-eliminating-duplicates&#34;&gt;Distinct Clause: (Eliminating Duplicates)&lt;/h2&gt;
+&lt;p&gt;List the unique countries:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select distinct(country) from author
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;count&#34;&gt;Count:&lt;/h1&gt;
+&lt;p&gt;Counting the number of countries:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select country, count(country) from author
+    group by country
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Counting the number of countries and giving the count column a name:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select country, count(country) as count
+    from author
+    group by country
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;having-clause&#34;&gt;Having Clause:&lt;/h2&gt;
+&lt;p&gt;Restricting the result set using &lt;strong&gt;having&lt;/strong&gt; clause.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Having clause is used with group-by clause only&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select country, count(country) as count
+    from author
+    group by country
+    having count(country) &amp;gt; 4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;p&gt;You can find some relevant SQL queries 
+&lt;a href=&#34;https://github.com/suhailnajeeb/learning-sql/blob/master/problems/problemset_2.sql&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://suhailnajeeb.github.io/post/sql-fundamentals-part-1&#34;&gt;Link&lt;/a&gt; to &lt;strong&gt;Part 1&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;To be continued ..&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SQL Fundamentals (Part 1/3)</title>
-      <link>https://suhailnajeeb.github.io/post/sql-basics/</link>
+      <link>https://suhailnajeeb.github.io/post/sql-fundamentals-part-1/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://suhailnajeeb.github.io/post/sql-basics/</guid>
-      <description>&lt;img src=&#34;https://suhailnajeeb.github.io/img/sql/database.jpg&#34;&gt;
+      <guid>https://suhailnajeeb.github.io/post/sql-fundamentals-part-1/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://suhailnajeeb.github.io/img/sql/database.jpg&#34;&gt;
+    &lt;a href = &#34;https://www.pexels.com/photo/bandwidth-close-up-computer-connection-1148820/&#34; target = &#34;_blank&#34;&gt;
+    &lt;figcaption&gt;Photo by Panumas Nikhomkhai from Pexels&lt;/figcaption&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;
 &lt;hr&gt;
 &lt;p&gt;While recently learning the basics of SQL, I created a bunch of notes for reference. You will find that these notes are parallel to the following online courses:&lt;/p&gt;
 &lt;ul&gt;
@@ -27,36 +139,37 @@
 &lt;a href=&#34;https://www.coursera.org/learn/sql-data-science&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Databases and SQL for Data Science&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The course on 
-&lt;a href=&#34;https://cognitiveclass.ai&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cognitiveclass.ai&lt;/a&gt; is free and  you could follow the materials if you want. The coursera course is part of coursera&amp;rsquo;s
+&lt;a href=&#34;https://cognitiveclass.ai&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cognitiveclass.ai&lt;/a&gt; is free and  you could follow the materials if you want. SQL for Data Science course is part of coursera&amp;rsquo;s
 
 &lt;a href=&#34;https://www.coursera.org/professional-certificates/ibm-data-science&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IBM Data Science Professional Certificate&lt;/a&gt; Program and provides a brief introduction to SQL for data science.&lt;/p&gt;
-&lt;p&gt;The following examples aren&amp;rsquo;t really descriptive if that is something you are looking for. Its mostly a collection of the basic syntaxes with some examples.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Part 1 contains a summary of the following topics:&lt;/p&gt;
+&lt;h2 id=&#34;the-following-statemetns-arent-really-descriptive-if-that-is-something-you-are-looking-for-its-mostly-a-collection-of-the-basic-syntaxes-with-some-examples-this-is-the-linkhttpsgithubcomsuhailnajeeblearning-sql-to-the-corresponding-github-repository-you-will-find-some-relevant-example-sql-queries-in-the-problemshttpsgithubcomsuhailnajeeblearning-sqltreemasterproblems-folder-of-the-repository&#34;&gt;The following statemetns aren&amp;rsquo;t really descriptive if that is something you are looking for. Its mostly a collection of the basic syntaxes with some examples. This is the 
+&lt;a href=&#34;https://github.com/suhailnajeeb/learning-sql&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; to the corresponding github repository. You will find some relevant example sql queries in the 
+&lt;a href=&#34;https://github.com/suhailnajeeb/learning-sql/tree/master/problems&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Problems&lt;/a&gt; folder of the repository.&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Part 1&lt;/strong&gt; contains a summary of the following topics:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Creating Tables:
 &lt;ul&gt;
-&lt;li&gt;CREATE statement&lt;/li&gt;
+&lt;li&gt;CREATE&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Queries:
 &lt;ul&gt;
-&lt;li&gt;SELECT statement&lt;/li&gt;
-&lt;li&gt;WHERE clause&lt;/li&gt;
+&lt;li&gt;SELECT&lt;/li&gt;
+&lt;li&gt;WHERE&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Useful functions for query:
 &lt;ul&gt;
-&lt;li&gt;COUNT function&lt;/li&gt;
-&lt;li&gt;DISTINCT function&lt;/li&gt;
-&lt;li&gt;LIMIT function&lt;/li&gt;
+&lt;li&gt;COUNT&lt;/li&gt;
+&lt;li&gt;DISTINCT&lt;/li&gt;
+&lt;li&gt;LIMIT&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Database Modification Statements:
+&lt;li&gt;DML Statements:
 &lt;ul&gt;
-&lt;li&gt;INSERT statement&lt;/li&gt;
-&lt;li&gt;UPDATE statement&lt;/li&gt;
-&lt;li&gt;DELETE statement&lt;/li&gt;
+&lt;li&gt;INSERT&lt;/li&gt;
+&lt;li&gt;UPDATE&lt;/li&gt;
+&lt;li&gt;DELETE&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -251,6 +364,13 @@ create table COUNTRY (
     WHERE AUTHOR_ID IN(&#39;A2&#39;,&#39;A3&#39;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;hr&gt;
+&lt;p&gt;You can find some relevant SQL queries 
+&lt;a href=&#34;https://github.com/suhailnajeeb/learning-sql/blob/master/problems/problemset_1.sql&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://suhailnajeeb.github.io/post/sql-fundamentals-part-2&#34;&gt;Link&lt;/a&gt; to &lt;strong&gt;Part 2&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;To be continued ..&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

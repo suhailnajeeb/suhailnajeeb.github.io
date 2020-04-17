@@ -4,26 +4,51 @@
   
   <url>
     <loc>https://suhailnajeeb.github.io/authors/admin/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://suhailnajeeb.github.io/authors/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/data/</loc>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/databases/</loc>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://suhailnajeeb.github.io/post/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://suhailnajeeb.github.io/post/sql-basics/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+    <loc>https://suhailnajeeb.github.io/tags/sql/</loc>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/post/sql-fundamentals-part-2/</loc>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://suhailnajeeb.github.io/</loc>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/</loc>
+    <lastmod>2020-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/post/sql-fundamentals-part-1/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -74,11 +99,6 @@
   
   <url>
     <loc>https://suhailnajeeb.github.io/authors/suhail-najeeb/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/tags/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
