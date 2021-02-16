@@ -403,6 +403,22 @@ create table COUNTRY (
     </item>
     
     <item>
+      <title>A Pipeline for Lung Tumor Detection and Segmentation from CT Scans Using Dilated Convolutional Neural Networks</title>
+      <link>https://suhailnajeeb.github.io/publication/lungseg-icassp2019/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/publication/lungseg-icassp2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classification of Retinal Diseases from OCT scans using Convolutional Neural Networks</title>
+      <link>https://suhailnajeeb.github.io/publication/retina-icece2018/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/publication/retina-icece2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Classification of Diseases from Retinal OCT Scan</title>
       <link>https://suhailnajeeb.github.io/project/retinal-oct-classify/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
@@ -415,14 +431,6 @@ create table COUNTRY (
       <link>https://suhailnajeeb.github.io/project/lung-tumor-seg/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       <guid>https://suhailnajeeb.github.io/project/lung-tumor-seg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Pipeline for Lung Tumor Detection and Segmentation from CT Scans Using Dilated Convolutional Neural Networks</title>
-      <link>https://suhailnajeeb.github.io/publication/lungseg-icassp2019/</link>
-      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://suhailnajeeb.github.io/publication/lungseg-icassp2019/</guid>
       <description></description>
     </item>
     

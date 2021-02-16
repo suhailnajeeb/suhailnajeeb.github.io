@@ -5,7 +5,7 @@
     <link>https://suhailnajeeb.github.io/authors/zaowad-r.-abdullah/</link>
       <atom:link href="https://suhailnajeeb.github.io/authors/zaowad-r.-abdullah/index.xml" rel="self" type="application/rss+xml" />
     <description>Zaowad R. Abdullah</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Zaowad R. Abdullah</title>
@@ -15,7 +15,7 @@
     <item>
       <title>A Pipeline for Lung Tumor Detection and Segmentation from CT Scans Using Dilated Convolutional Neural Networks</title>
       <link>https://suhailnajeeb.github.io/publication/lungseg-icassp2019/</link>
-      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
       <guid>https://suhailnajeeb.github.io/publication/lungseg-icassp2019/</guid>
       <description></description>
     </item>

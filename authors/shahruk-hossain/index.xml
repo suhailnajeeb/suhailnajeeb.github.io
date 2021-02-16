@@ -21,18 +21,18 @@
     </item>
     
     <item>
-      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
-      <link>https://suhailnajeeb.github.io/project/lung-tumor-seg/</link>
-      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://suhailnajeeb.github.io/project/lung-tumor-seg/</guid>
+      <title>A Pipeline for Lung Tumor Detection and Segmentation from CT Scans Using Dilated Convolutional Neural Networks</title>
+      <link>https://suhailnajeeb.github.io/publication/lungseg-icassp2019/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/publication/lungseg-icassp2019/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>A Pipeline for Lung Tumor Detection and Segmentation from CT Scans Using Dilated Convolutional Neural Networks</title>
-      <link>https://suhailnajeeb.github.io/publication/lungseg-icassp2019/</link>
-      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://suhailnajeeb.github.io/publication/lungseg-icassp2019/</guid>
+      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
+      <link>https://suhailnajeeb.github.io/project/lung-tumor-seg/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/project/lung-tumor-seg/</guid>
       <description></description>
     </item>
     
