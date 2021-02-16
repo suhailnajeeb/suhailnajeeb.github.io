@@ -3,12 +3,82 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://suhailnajeeb.github.io/tags/artifact-removal/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+    <loc>https://suhailnajeeb.github.io/authors/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://suhailnajeeb.github.io/authors/</loc>
+    <loc>https://suhailnajeeb.github.io/categories/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/cnn/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/computer-vision/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/categories/computer-vision/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/deep-learning/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/frcnn/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/project/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/authors/shahruk-hossain/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/authors/suhail-najeeb/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/project/traffic-sign-detect/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/traffic-sign-recognition/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/video/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/artifact-removal/</loc>
     <lastmod>2020-11-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,32 +88,7 @@
   </url>
   
   <url>
-    <loc>https://suhailnajeeb.github.io/categories/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/tags/computer-vision/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/categories/computer-vision/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/tags/deep-learning/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://suhailnajeeb.github.io/tags/image-enhancement/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/project/</loc>
     <lastmod>2020-11-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,18 +98,28 @@
   </url>
   
   <url>
-    <loc>https://suhailnajeeb.github.io/authors/suhail-najeeb/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+    <loc>https://suhailnajeeb.github.io/tags/ct-scan/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://suhailnajeeb.github.io/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+    <loc>https://suhailnajeeb.github.io/tags/dilated-cnn/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://suhailnajeeb.github.io/tags/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+    <loc>https://suhailnajeeb.github.io/project/lung-tumor-seg/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/lung-tumor-segmentation/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suhailnajeeb.github.io/tags/segmentation/</loc>
+    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -108,22 +163,12 @@
   </url>
   
   <url>
-    <loc>https://suhailnajeeb.github.io/tags/dilated-cnn/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://suhailnajeeb.github.io/tags/genomics/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://suhailnajeeb.github.io/tags/rnaseq/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/authors/shahruk-hossain/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -218,58 +263,13 @@
   </url>
   
   <url>
-    <loc>https://suhailnajeeb.github.io/tags/cnn/</loc>
-    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://suhailnajeeb.github.io/tags/retinal-oct/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://suhailnajeeb.github.io/tags/ct-scan/</loc>
-    <lastmod>2018-10-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/project/lung-tumor-seg/</loc>
-    <lastmod>2018-10-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/tags/lung-tumor-segmentation/</loc>
-    <lastmod>2018-10-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/tags/segmentation/</loc>
-    <lastmod>2018-10-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://suhailnajeeb.github.io/talk/sbsc-workshop-2/</loc>
     <lastmod>2017-11-15T17:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/tags/frcnn/</loc>
-    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/project/traffic-sign-detect/</loc>
-    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/tags/traffic-sign-recognition/</loc>
-    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suhailnajeeb.github.io/tags/video/</loc>
-    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>

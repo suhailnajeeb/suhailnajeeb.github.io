@@ -5,7 +5,7 @@
     <link>https://suhailnajeeb.github.io/tags/dilated-cnn/</link>
       <atom:link href="https://suhailnajeeb.github.io/tags/dilated-cnn/index.xml" rel="self" type="application/rss+xml" />
     <description>dilated-cnn</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>dilated-cnn</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Cancer Classification from Single-Cell RNA Sequencing Data</title>
-      <link>https://suhailnajeeb.github.io/project/tcga-cancer-predict/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://suhailnajeeb.github.io/project/tcga-cancer-predict/</guid>
+      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
+      <link>https://suhailnajeeb.github.io/project/lung-tumor-seg/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/project/lung-tumor-seg/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
-      <link>https://suhailnajeeb.github.io/project/lung-tumor-seg/</link>
-      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://suhailnajeeb.github.io/project/lung-tumor-seg/</guid>
+      <title>Cancer Classification from Single-Cell RNA Sequencing Data</title>
+      <link>https://suhailnajeeb.github.io/project/tcga-cancer-predict/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/project/tcga-cancer-predict/</guid>
       <description></description>
     </item>
     

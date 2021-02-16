@@ -5,7 +5,7 @@
     <link>https://suhailnajeeb.github.io/</link>
       <atom:link href="https://suhailnajeeb.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Suhail Najeeb</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Suhail Najeeb</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Traffic Sign Detection under Challenging Conditions</title>
+      <link>https://suhailnajeeb.github.io/project/traffic-sign-detect/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/project/traffic-sign-detect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Removal of Artifacts from Vehicle Mounted Images using Convolutional Autoencoders</title>
       <link>https://suhailnajeeb.github.io/project/artifact-removal/</link>
       <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://suhailnajeeb.github.io/project/artifact-removal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
+      <link>https://suhailnajeeb.github.io/project/lung-tumor-seg/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/project/lung-tumor-seg/</guid>
       <description></description>
     </item>
     
@@ -435,14 +451,6 @@ create table COUNTRY (
     </item>
     
     <item>
-      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
-      <link>https://suhailnajeeb.github.io/project/lung-tumor-seg/</link>
-      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://suhailnajeeb.github.io/project/lung-tumor-seg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Course on Python &amp; Data Science</title>
       <link>https://suhailnajeeb.github.io/talk/sbsc-workshop-2/</link>
       <pubDate>Wed, 15 Nov 2017 17:00:00 +0600</pubDate>
@@ -456,14 +464,6 @@ create table COUNTRY (
 &lt;h2 id=&#34;hands-on-q--a-session&#34;&gt;Hands-on Q &amp;amp; A Session:&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;course_4.jpg&#34; /&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Traffic Sign Detection under Challenging Conditions</title>
-      <link>https://suhailnajeeb.github.io/project/traffic-sign-detect/</link>
-      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://suhailnajeeb.github.io/project/traffic-sign-detect/</guid>
-      <description></description>
     </item>
     
     <item>

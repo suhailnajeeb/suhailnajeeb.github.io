@@ -5,7 +5,7 @@
     <link>https://suhailnajeeb.github.io/project/</link>
       <atom:link href="https://suhailnajeeb.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Projects</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Traffic Sign Detection under Challenging Conditions</title>
+      <link>https://suhailnajeeb.github.io/project/traffic-sign-detect/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/project/traffic-sign-detect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Removal of Artifacts from Vehicle Mounted Images using Convolutional Autoencoders</title>
       <link>https://suhailnajeeb.github.io/project/artifact-removal/</link>
       <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://suhailnajeeb.github.io/project/artifact-removal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
+      <link>https://suhailnajeeb.github.io/project/lung-tumor-seg/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/project/lung-tumor-seg/</guid>
       <description></description>
     </item>
     
@@ -33,22 +49,6 @@
       <link>https://suhailnajeeb.github.io/project/retinal-oct-classify/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://suhailnajeeb.github.io/project/retinal-oct-classify/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
-      <link>https://suhailnajeeb.github.io/project/lung-tumor-seg/</link>
-      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://suhailnajeeb.github.io/project/lung-tumor-seg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Traffic Sign Detection under Challenging Conditions</title>
-      <link>https://suhailnajeeb.github.io/project/traffic-sign-detect/</link>
-      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://suhailnajeeb.github.io/project/traffic-sign-detect/</guid>
       <description></description>
     </item>
     
