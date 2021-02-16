@@ -5,12 +5,20 @@
     <link>https://suhailnajeeb.github.io/</link>
       <atom:link href="https://suhailnajeeb.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Suhail Najeeb</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Suhail Najeeb</title>
       <link>https://suhailnajeeb.github.io/</link>
     </image>
+    
+    <item>
+      <title>Removal of Artifacts from Vehicle Mounted Images using Convolutional Autoencoders</title>
+      <link>https://suhailnajeeb.github.io/project/artifact-removal/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/project/artifact-removal/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SQL Fundamentals (Part 2/3)</title>

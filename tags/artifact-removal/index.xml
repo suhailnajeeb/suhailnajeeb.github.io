@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>artifact removal | Suhail Najeeb</title>
+    <link>https://suhailnajeeb.github.io/tags/artifact-removal/</link>
+      <atom:link href="https://suhailnajeeb.github.io/tags/artifact-removal/index.xml" rel="self" type="application/rss+xml" />
+    <description>artifact removal</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>artifact removal</title>
+      <link>https://suhailnajeeb.github.io/tags/artifact-removal/</link>
+    </image>
+    
+    <item>
+      <title>Removal of Artifacts from Vehicle Mounted Images using Convolutional Autoencoders</title>
+      <link>https://suhailnajeeb.github.io/project/artifact-removal/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/project/artifact-removal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
