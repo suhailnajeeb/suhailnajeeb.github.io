@@ -5,12 +5,224 @@
     <link>https://suhailnajeeb.github.io/post/</link>
       <atom:link href="https://suhailnajeeb.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>https://suhailnajeeb.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>SQL Fundamentals (Part 3/3)</title>
+      <link>https://suhailnajeeb.github.io/post/sql-fundamentals-part-3/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.github.io/post/sql-fundamentals-part-3/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://suhailnajeeb.github.io/img/sql/database.jpg&#34;&gt;
+    &lt;a href = &#34;https://www.pexels.com/photo/bandwidth-close-up-computer-connection-1148820/&#34; target = &#34;_blank&#34;&gt;
+    &lt;figcaption&gt;Photo by Panumas Nikhomkhai from Pexels&lt;/figcaption&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;
+&lt;hr&gt;
+&lt;p&gt;This is the Part 3 of my SQL Fundamentals series, continuing from 
+&lt;a href=&#34;https://suhailnajeeb.github.io/post/sql-fundamentals-part-2&#34;&gt;Part 2&lt;/a&gt; where I discussed about matching string patterns, Ranges, Sets, Sorting, Grouping, Filtering etc. Part 3 of this series covers the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Functions in SQL:
+&lt;ul&gt;
+&lt;li&gt;Aggregate/Column Functions: SUM, MIN, MAX, AVG&lt;/li&gt;
+&lt;li&gt;Scalar and String Functinos: ROUND, LENGTH, UCASE, DCASE&lt;/li&gt;
+&lt;li&gt;Date-Time Functions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sub-Queries and Nested Selects&lt;/li&gt;
+&lt;li&gt;Working with Multiple Tables etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following statemetns aren&amp;rsquo;t really descriptive if that is something you are looking for. Its mostly a collection of the basic syntaxes with some examples. This is the 
+&lt;a href=&#34;https://github.com/suhailnajeeb/learning-sql&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; to the corresponding github repository. You will find some relevant example sql queries in the 
+&lt;a href=&#34;https://github.com/suhailnajeeb/learning-sql/tree/master/problems&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Problems&lt;/a&gt; folder of the repository.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;functions-in-sql&#34;&gt;Functions in SQL:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Built-in Functions&lt;/li&gt;
+&lt;li&gt;User Defined Functions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;aggregate-or-column-functions&#34;&gt;Aggregate or Column Functions&lt;/h1&gt;
+&lt;h2 id=&#34;sum-function&#34;&gt;Sum Function:&lt;/h2&gt;
+&lt;p&gt;Add up all values in a column&lt;/p&gt;
+&lt;h2 id=&#34;syntax&#34;&gt;Syntax:&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;SUM(COLUMN_NAME)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples:&lt;/h2&gt;
+&lt;p&gt;Add all values in the SALEPRICE column&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select SUM(SALEPRICE) from PETSALE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Explicitly name the output column SUM_OF_SALEPRICE&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select SUM(SALEPRICE) as SUM_OF_SALEPRICE
+    from PETSALE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;min-max-avg&#34;&gt;MIN, MAX, AVG&lt;/h1&gt;
+&lt;h2 id=&#34;min-returns-the-minimum-value&#34;&gt;Min: Returns the minimum value&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select MIN(ID) from PETSALE where ANIMAL = &#39;Dog&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;max-returns-the-maximum-value&#34;&gt;Max: Returns the maximum value&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select MAX(QUANTITY) from PETSALE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;average-return-the-average-value&#34;&gt;Average: Return the average value&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select AVG(SALEPRICE) from PETSALE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Mathematical operations can be performed between columns&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select AVG(SALEPRICE / QUANTITY) from PETSALE
+    where ANIMAL = &#39;Dog&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;scaler-and-string-functions&#34;&gt;Scaler and String Functions&lt;/h1&gt;
+&lt;h2 id=&#34;round&#34;&gt;ROUND()&lt;/h2&gt;
+&lt;p&gt;Round up or down every value in saleprice:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select ROUND(SALEPRICE) from PETSALE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Retrieve the length of each value in ANIMAL:&lt;/p&gt;
+&lt;h2 id=&#34;length&#34;&gt;LENGTH()&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select LENGTH(ANIMAL) from PETSALE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;ucase&#34;&gt;UCASE&lt;/h2&gt;
+&lt;p&gt;Retrieve ANIMAL values in Uppercase:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select UCASE(ANIMAL) from PETSALE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;dcase&#34;&gt;DCASE&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select * from PETSALE
+    where LCASE(ANIMAL) = &#39;cat&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;select distinct values:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select DISTINCT(UCASE(ANIMAL)) from PETSALE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;date-time-functions&#34;&gt;Date, Time Functions&lt;/h1&gt;
+&lt;h2 id=&#34;examples-1&#34;&gt;Examples:&lt;/h2&gt;
+&lt;p&gt;Extract the DAY portion from a date:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select DAY(SALEDATE) from PETSALE
+    where ANIMAL = &#39;Cat&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Get the number of sales during the month of May:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select COUNT(*) from PETSALE
+    where MONTH(SALEDATE) = &#39;05&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;datetime-arithmetic&#34;&gt;Date/Time Arithmetic:&lt;/h2&gt;
+&lt;p&gt;What date is it 3 days after each sale date?&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select (SALEDATE + 3 DAYS) from PETSALE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Special Registers:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;CURRENT_DATE, CURRENT_TIME
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Find how many days have passed since each SALEDATE till now:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select (CURRENT_DATE - SALEDATE) from PETSALE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;sub-queries-and-nested-selects&#34;&gt;Sub-Queries and Nested Selects:&lt;/h1&gt;
+&lt;h2 id=&#34;sub-query&#34;&gt;Sub-Query:&lt;/h2&gt;
+&lt;p&gt;A Query inside another Query&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select COLUMN1 from TABLE
+    where COLUMN2 = (select MAX(COLUMN2) from TABLE)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example:&lt;/h2&gt;
+&lt;p&gt;Retrieve the list of employees who earn more than the average salary:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;THIS IS INCORRECT&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select * from employees
+    where salary &amp;gt; AVG(salary)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;You cannot aggregate functions like AVG() in the WHERE clause&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Solution&lt;/em&gt;: Use a sub-select expression.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select EMP_ID, F_NAME, L_NAME, SALARY
+    from employees
+    where salary &amp;gt;
+    (select AVG(SALARY) from employees);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;sub-queries-in-list-of-columns&#34;&gt;Sub-Queries in list of columns&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Substitute column name with a sub-query&lt;/li&gt;
+&lt;li&gt;Called Column Expressions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;THIS IS INCORRECT&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select EMP_ID, SALARY, AVG(SALARY) AS AVG_SALARY
+    from employees;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select EMP_ID, SALARY,
+    ( select AVG(SALARY) from employees)
+        AS AVG_SALARY
+    from employees;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;sub-queries-in-from-clause&#34;&gt;Sub-queries in FROM Clause&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Substitute the TABLE name with a sub-query&lt;/li&gt;
+&lt;li&gt;These are called Derived Tables or Table Expressions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select * from
+    ( select EMP_ID, F_NAME, L_NAME, DEP_ID
+        from employees) AS EMP4ALL;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;working-with-multiple-tables&#34;&gt;Working With Multiple Tables:&lt;/h1&gt;
+&lt;p&gt;Ways to access multiple tables in the same query:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Sub-queries&lt;/li&gt;
+&lt;li&gt;Implicit JOIN&lt;/li&gt;
+&lt;li&gt;JOIN operators (INNER JOIN, OUTER JOIN, etc.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;accessing-multiple-tables-with-sub-queries&#34;&gt;Accessing Multiple Tables with Sub-queries:&lt;/h2&gt;
+&lt;p&gt;Retrieve only the employee recrds that correspond to departmetns in the DEPARTMENTS table:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select * from employees
+    where DEP_ID IN
+        (select DEPT_ID_DEP from departments);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Retrieve only the list of employees from a specific location:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;EMPLOYEES table does not contain location information&lt;/li&gt;
+&lt;li&gt;Need to get location info from DEPARTMENTS table&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select * from employees
+    where DEP_ID_IN
+        (select DEPT_ID_DEP from departments
+            where LOC_ID = &#39;L0002&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Retreive department ID and name for employees who earn more than $70,000&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select DEPT_ID_DEP, DEP_NAME from departments
+    where DEPT_ID_DEP IN
+        (select DEP_ID from employees
+            wehre SALARY &amp;gt; 70000)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;accessing-multiple-tables-with-implicit-join&#34;&gt;Accessing Multiple Tables with Implicit Join:&lt;/h2&gt;
+&lt;p&gt;Specify 2 Tables in the FROM clause:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select * from employees, departments;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The result is a full join (Cartesian Join)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Every row in the first table is joined with every row in the 2nd table&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Limiting the result set:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select * from employees, departments
+    where employees.DEP_ID = 
+        departments.DEPT_ID_DEP;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Using shorter aliases for table names:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select * from employees E, departments D
+    where E.DEP_ID = D.DEPT_ID_DEP;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;See the department name for each employee:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select employees.EMP_ID, departments.DEPT_NAME
+    from employees E, departments D
+    where E.DEP_ID = D.DEPT_ID_DEP;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Column names can be pre-fixed by aliases also:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select E.EMP_ID, D.DEPT_NAME
+    from employees E, departments D
+    where E.DEP_ID = D.DEPT_ID_DEP;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can find some relevant SQL queries 
+&lt;a href=&#34;https://github.com/suhailnajeeb/learning-sql/blob/master/problems/problemset_2.sql&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://suhailnajeeb.github.io/post/sql-fundamentals-part-1&#34;&gt;Link&lt;/a&gt; to &lt;strong&gt;Part 1&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://suhailnajeeb.github.io/post/sql-fundamentals-part-2&#34;&gt;Link&lt;/a&gt; to &lt;strong&gt;Part 2&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;This post ends this SQL Fundamentals series. I hope that you have found it helpful. Thank you for sticking till the end!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SQL Fundamentals (Part 2/3)</title>
