@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>biomedical-imaging | Suhail Najeeb</title>
+    <link>https://suhailnajeeb.netlify.app/tag/biomedical-imaging/</link>
+      <atom:link href="https://suhailnajeeb.netlify.app/tag/biomedical-imaging/index.xml" rel="self" type="application/rss+xml" />
+    <description>biomedical-imaging</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://suhailnajeeb.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>biomedical-imaging</title>
+      <link>https://suhailnajeeb.netlify.app/tag/biomedical-imaging/</link>
+    </image>
+    
+    <item>
+      <title>Multi-Scale Spatial feature fusion in 3D convolutional architectures for lung tumor segmentation</title>
+      <link>https://suhailnajeeb.netlify.app/project/spatial-feature-fusion/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.netlify.app/project/spatial-feature-fusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
+      <link>https://suhailnajeeb.netlify.app/project/lung-tumor-seg/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.netlify.app/project/lung-tumor-seg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classification of Diseases from Retinal OCT Scan</title>
+      <link>https://suhailnajeeb.netlify.app/project/retinal-oct-classify/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.netlify.app/project/retinal-oct-classify/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dilated-cnn | Suhail Najeeb</title>
+    <link>https://suhailnajeeb.netlify.app/tag/dilated-cnn/</link>
+      <atom:link href="https://suhailnajeeb.netlify.app/tag/dilated-cnn/index.xml" rel="self" type="application/rss+xml" />
+    <description>dilated-cnn</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://suhailnajeeb.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>dilated-cnn</title>
+      <link>https://suhailnajeeb.netlify.app/tag/dilated-cnn/</link>
+    </image>
+    
+    <item>
+      <title>Lung Cancer Radiomics - Tumor Region Segmentation</title>
+      <link>https://suhailnajeeb.netlify.app/project/lung-tumor-seg/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.netlify.app/project/lung-tumor-seg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cancer Classification from Single-Cell RNA Sequencing Data</title>
+      <link>https://suhailnajeeb.netlify.app/project/tcga-cancer-predict/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.netlify.app/project/tcga-cancer-predict/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

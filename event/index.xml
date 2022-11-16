@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Suhail Najeeb</title>
+    <link>https://suhailnajeeb.netlify.app/event/</link>
+      <atom:link href="https://suhailnajeeb.netlify.app/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Oct 2019 15:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://suhailnajeeb.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://suhailnajeeb.netlify.app/event/</link>
+    </image>
+    
+    <item>
+      <title>Applications of AI in Engineering: The Data Driven Future</title>
+      <link>https://suhailnajeeb.netlify.app/talk/applications-of-ai-in-engineering-the-data-driven-future/</link>
+      <pubDate>Wed, 23 Oct 2019 15:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.netlify.app/talk/applications-of-ai-in-engineering-the-data-driven-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Road to IEEE SP Cup &amp; VIP Cup</title>
+      <link>https://suhailnajeeb.netlify.app/talk/road-to-ieee-sp-cup-vip-cup/</link>
+      <pubDate>Tue, 27 Aug 2019 17:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.netlify.app/talk/road-to-ieee-sp-cup-vip-cup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Course on Python &amp; Data Science</title>
+      <link>https://suhailnajeeb.netlify.app/talk/course-on-python-data-science/</link>
+      <pubDate>Wed, 15 Nov 2017 17:00:00 +0000</pubDate>
+      <guid>https://suhailnajeeb.netlify.app/talk/course-on-python-data-science/</guid>
+      <description>&lt;h2 id=&#34;participants&#34;&gt;Participants:&lt;/h2&gt;
+&lt;img src=&#34;course_1.jpg&#34; /&gt;
+&lt;h2 id=&#34;class-in-progress&#34;&gt;Class in progress:&lt;/h2&gt;
+&lt;img src=&#34;course_2.jpg&#34; /&gt;
+&lt;h2 id=&#34;the-pizza-classifier&#34;&gt;The Pizza Classifier!&lt;/h2&gt;
+&lt;img src=&#34;course_3.jpg&#34; /&gt;
+&lt;h2 id=&#34;hands-on-q--a-session&#34;&gt;Hands-on Q &amp;amp; A Session:&lt;/h2&gt;
+&lt;img src=&#34;course_4.jpg&#34; /&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
