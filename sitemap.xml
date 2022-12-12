@@ -2,6 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://suhailnajeeb.netlify.app/tag/ai/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://suhailnajeeb.netlify.app/tag/chatgpt/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://suhailnajeeb.netlify.app/post/chatgpt/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://suhailnajeeb.netlify.app/tag/language-model/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://suhailnajeeb.netlify.app/tag/nlp/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://suhailnajeeb.netlify.app/post/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://suhailnajeeb.netlify.app/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://suhailnajeeb.netlify.app/tags/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://suhailnajeeb.netlify.app/publication-type/2/</loc>
     <lastmod>2022-07-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -63,14 +95,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://suhailnajeeb.netlify.app/tag/spatial-feature-fusion/</loc>
-    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://suhailnajeeb.netlify.app/</loc>
-    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://suhailnajeeb.netlify.app/tags/</loc>
     <lastmod>2022-07-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -187,9 +211,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://suhailnajeeb.netlify.app/admin/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://suhailnajeeb.netlify.app/post/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
